@@ -1,26 +1,22 @@
 .hero {
-  text-align: center;
-  padding: 200px 0;
-}
-.overlay {
   background-color: #c4c4c4;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
     url(../img/bg-img.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left top /* 80px */;
+  background: no-repeat, cover, left top, color;
   margin-left: auto;
   margin-right: auto;
   max-width: 1600px;
   height: 600px;
+  text-align: center;
+  padding: 200px 0;
 }
-.hero .container {
+.hero__container {
   width: 696px;
 }
-.hero-title {
+.hero__title {
   color: var(--main-title-text-color);
   display: inline-block;
   margin-top: 0;
@@ -32,23 +28,3 @@
   text-transform: uppercase;
 }
 /* Hero Button */
-.hero .button {
-  color: var(--button-text-color);
-  background-color: var(--accent-color);
-  cursor: pointer;
-  font-family: inherit;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  padding: 10px 32px;
-  border: 0;
-  border-radius: 4px;
-  transition: var(--trans);
-}
-.hero .button:hover,
-.hero .button:focus {
-  color: var(--button-text-color);
-  background-color: #188ce8;
-  transform: scale(105%);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}

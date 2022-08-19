@@ -1,13 +1,9 @@
-@import "./base/normalize";
-@import "./base/common";
-@import "./utils/vars";
-@import "./base/reset";
-@import "./utils/hidden";
+@import "./base/base";
+@import "./utils/utils";
 
 @import "./components/components";
 
 @import "./layout/header";
-
 @import "./layout/hero";
 @import "./layout/features";
 @import "./layout/work";

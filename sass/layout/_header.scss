@@ -1,50 +1,38 @@
-.page .header {
+.header {
   border-bottom: 1px solid #ececec;
   position: fixed;
   left: 0;
   right: 0;
   top: 0;
   z-index: 1;
-
   align-items: center;
   background-color: #ffffff;
 }
-
-/*    logo */
-.logo {
-  padding: 24px 0;
-  margin-right: 93px;
-  color: var(--accent-color);
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  display: inline-block;
-}
-.logo-black {
-  color: var(--logo-black-color);
-}
-.logo-white {
-  color: var(--logo-white-color);
-}
-
-/* Navigation */
-.header {
-  border-bottom: 2px;
-  border-color: #188ce8;
-}
-.nav-section {
+.nav__section {
   display: flex;
   margin-right: auto;
 }
-.menu-nav {
+
+/*    logo */
+
+.header-logo__second-word {
+  color: var(--logo-black-color);
+}
+
+.header-logo__indents {
+  padding: 24px 0;
+  margin-right: 93px;
+}
+
+/* Navigation */
+.nav__list {
   display: flex;
 }
-.menu-nav .nav-item:not(:last-child) {
+.nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.menu-nav .link {
+.nav__link {
   display: block;
   padding: 32px 0;
 
@@ -55,11 +43,11 @@
   letter-spacing: 0.02em;
   transition: var(--trans);
 }
-.menu-nav .link.current {
+.nav__current {
   color: var(--accent-color);
   position: relative;
 }
-.link.current::after {
+.nav__current::after {
   content: "";
   width: 100%;
   height: 4px;
@@ -70,16 +58,20 @@
   left: 0;
   bottom: -2px;
 }
-.menu-nav .link:hover,
-.menu-nav .link:focus {
+.nav__link:hover,
+.nav__link:focus {
   color: var(--accent-color);
 }
 /* ---------Adress Nav------- */
-.adress-nav {
+.contact-list {
   display: flex;
 }
 
-.link-container {
+.contact-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.contact__link {
   display: flex;
   align-items: center;
   color: var(--primary-text-color);
@@ -92,29 +84,17 @@
   transition: var(--trans);
 }
 
-.link-icon-mail {
-  fill: currentColor;
-  width: 16px;
-  height: 12px;
+.contact__link-icon {
   margin-right: 10px;
-}
-.link-icon-tel {
   fill: currentColor;
-  width: 10px;
-  height: 16px;
-  margin-right: 10px;
 }
 
-.link-text {
+.contact__link-text {
   display: block;
   font-size: 14px;
 }
 
-.link-container:hover,
-.link-container:focus {
+.contact__link:hover,
+.contact__link:focus {
   color: var(--accent-color);
-}
-
-.nav-item:not(:last-child) {
-  margin-right: 30px;
 }

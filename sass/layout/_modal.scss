@@ -37,7 +37,7 @@
   border-radius: 4px;
 }
 
-.modal .button {
+.modal__close-button {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -61,7 +61,7 @@
   transition: var(--trans);
 }
 
-.modal .button:hover .modal-icon,
-.modal .button:focus .modal-icon {
+.modal__close-button:hover .modal-icon,
+.modal__close-button:focus .modal-icon {
   fill: var(--accent-color);
 }

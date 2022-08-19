@@ -2,17 +2,17 @@
   padding-top: 0;
   padding-bottom: 94px;
 }
-.work .list {
+.work__list {
   display: flex;
 }
-.work-img-item {
+.work__item {
   margin-right: 30px;
   position: relative;
 }
-.work-img-item:last-child {
+.work__item:last-child {
   margin-right: 0;
 }
-.work-label-container {
+.work__label-container {
   position: absolute;
   justify-content: center;
   align-items: center;
@@ -24,7 +24,7 @@
 
   background-color: rgba(47, 48, 58, 0.8);
 }
-.work-label-title {
+.work__label-title {
   color: #ffffff;
   margin: 0;
   font-weight: 700;
