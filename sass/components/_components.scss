@@ -1,17 +1,8 @@
 @import "./page";
 @import "./container";
+@import "./section";
 @import "./logo";
 @import "./button";
 @import "./section-title";
-
-.section {
-  padding: 94px 0;
-}
-
-.flex {
-  display: flex;
-}
-
-.title {
-  color: var(--title-text-color);
-}
+@import "./title";
+@import "./flex";

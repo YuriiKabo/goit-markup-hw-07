@@ -1,7 +1,12 @@
 .work {
   padding-top: 0;
   padding-bottom: 94px;
-  .work__list {
+
+  &__title {
+    margin: 0 0 50px 0;
+  }
+
+  &__list {
     display: flex;
   }
   &__item {

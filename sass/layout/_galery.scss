@@ -1,3 +1,4 @@
+/* --------- GALERY --------- */
 .galery {
   &__list {
     display: flex;
@@ -17,6 +18,7 @@
   &__link {
     display: block;
     color: inherit;
+    transition-property: box-shadow;
     transition: var(--trans);
     &:hover,
     &:focus {

@@ -6,6 +6,7 @@
   width: 100%;
   height: 100%;
   z-index: 1;
+  transition-property: opacity visibility pointer-events;
   transition: var(--trans);
 
   background-color: rgba(0, 0, 0, 0.2);
@@ -56,6 +57,7 @@
   &__icon {
     width: 18px;
     height: 18px;
+    transition-property: fill;
     transition: var(--trans);
   }
 }

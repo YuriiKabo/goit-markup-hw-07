@@ -36,6 +36,7 @@
     color: var(--title-text-color);
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    transition-property: color background-color border-color outline fill;
     transition: var(--trans);
     &::placeholder {
       font-size: 12px;
@@ -62,6 +63,7 @@
       left: 12px;
       transform: translateY(-50%);
       fill: var(--title-text-color);
+      transition-property: fill;
       transition: var(--trans);
     }
   }
@@ -75,6 +77,7 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     resize: none;
+    transition-property: color border-color outline;
     transition: var(--trans);
     &::placeholder {
       font-size: 12px;
@@ -107,6 +110,7 @@
       border: 2px solid var(--title-text-color);
       border-radius: 2px;
       margin-right: 7px;
+      transition-property: background-color border-color border;
       transition: var(--trans);
     }
     &-icon {
