@@ -19,6 +19,7 @@
     border: var(--social-icon-color) solid 1px;
     border-radius: 4px;
     color: var(--social-icon-color);
+    transition-property: transform border color;
     transition: var(--trans);
     &:hover,
     &:focus {

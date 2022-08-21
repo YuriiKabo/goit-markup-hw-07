@@ -354,8 +354,10 @@ summary {
   cursor: pointer;
   border: 0;
   border-radius: 4px;
-  -webkit-transition-property: background-color scale box-shadow;
-  transition-property: background-color scale box-shadow;
+  -webkit-transition-property: -webkit-transform background-color box-shadow;
+  transition-property: -webkit-transform background-color box-shadow;
+  transition-property: transform background-color box-shadow;
+  transition-property: transform background-color box-shadow, -webkit-transform background-color box-shadow;
   -webkit-transition: var(--trans);
   transition: var(--trans);
 }
@@ -712,6 +714,10 @@ summary {
   border: var(--social-icon-color) solid 1px;
   border-radius: 4px;
   color: var(--social-icon-color);
+  -webkit-transition-property: -webkit-transform border color;
+  transition-property: -webkit-transform border color;
+  transition-property: transform border color;
+  transition-property: transform border color, -webkit-transform border color;
   -webkit-transition: var(--trans);
   transition: var(--trans);
 }
